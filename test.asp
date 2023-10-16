@@ -1,7 +1,7 @@
 <!-- #include virtual="/hex-classic-asp/_hex.asp" -->
 <%
 
-'// CLASS HEXA HAS BEEN ADDED BY THE #INCLUDE STATEMENT (ABOVE.)
+'// "HEXA" CLASS HAS BEEN ADDED BY THE #INCLUDE STATEMENT (ABOVE.)
 
 dim text
 text = "Hello, world!"
