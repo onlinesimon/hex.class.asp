@@ -1,5 +1,5 @@
 # hex-classic-asp
-Small hex string encode &amp; decode Class written for Classic ASP
+<strong>Small hex string encode &amp; decode Class written for Classic ASP</strong>
 
 Include the _hex.asp class at the beginning of your Classic ASP page: <br>
 <code><! -- #include virtual="/hex-classic-asp/_hex.asp" -- ></code>
@@ -10,7 +10,7 @@ The <b>Hexa</b> class will be created with the following functions: <br>
 Encode the contents of the 't' string. 
 
 <code>Hexa.Decode(t)</code><br>
-Decode the contents of the 't' string from hex to ASCii.
+Decode the contents of the 't' string from hex to ASCII.
 
 <code>Hexa.Write(t)</code><br>
 Same as Hexa.Encode but also includes "HEX:" at beginning of output to identify string as being hex.
