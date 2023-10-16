@@ -24,7 +24,7 @@ Same as Hexa.Decode but will check for "HEX:" to verfy that string is hex, and o
 Use this command to clear the above strings.
 
 <code>Hexa.Truncate(text,size)</code><br>
-Additional function used to truncate string <b>text</b> to a maximum <b>size</b>. If string length is greater than <b>size</b> then <b>text</b> will be truncated, with a "... [TRUNCATED]" message attached to the end of the string.
+Additional function used to truncate string <b>text</b> to a maximum <b>size</b>. If string length is greater than <b>size</b> then <b>text</b> will be truncated (clipped), with a "... [TRUNCATED]" message appended to the end of the string.
 
 <code>set Hexa = nothing</code><br>
 Close and free-up memory after using (only needed once, at the end of your code.)
