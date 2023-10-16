@@ -1,7 +1,7 @@
 <%
 
-'// AUTHOR:	Simon Beal'
-'//	UPDATE:	2017-10-23'
+'// AUTHOR: Simon Beal'
+'// UPDATE: 2017-10-23'
 
 '// USAGE: '
 '// 	t = Hexa.Encode(t)
@@ -33,16 +33,13 @@ class Hexing
 		Reset
 
 		if len(text) > 0 then
-
 			if isHex(text) = true then
 				Read = Decode(mid(text,5))
 				Encoded = text
 			else
 				Read = text
 			end if
-
 			Decoded = Read
-
 		end if
 
 	end function
@@ -52,16 +49,13 @@ class Hexing
 		call Reset
 
 		if len(Text) > 0 then
-
 			if isHex(Text) = false then
 				Write = "HEX:" & Encode(Text)
 				Decoded = Text
 			else
 				Write = Text
 			end if
-
 			Encoded = Write
-
 		else
 			Write = ""
 		end if
@@ -99,7 +93,6 @@ class Hexing
 
 		Decoded = str
 		Encoded = strHex
-
 		Encode = strHex
 
 	end function
@@ -118,7 +111,6 @@ class Hexing
 
 		Encoded = strHex
 		Decoded = str
-
 		Decode = str
 
 	end function
