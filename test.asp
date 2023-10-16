@@ -30,7 +30,7 @@ response.write "Identified as hex-string, so decoded = " & text & "<br>"
 '// TRUNCATE FUNCTION
 
 text = 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, " & _
-		"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 response.write "Random sentence = " & text & "<br>"
 
