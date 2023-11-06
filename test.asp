@@ -1,4 +1,4 @@
-<!-- #include virtual="/hex-classic-asp/_hex.asp" -->
+<!-- #include virtual="/hexa.class.asp" -->
 <%
 
 '// "HEXA" CLASS HAS BEEN ADDED BY THE #INCLUDE STATEMENT (ABOVE.)
