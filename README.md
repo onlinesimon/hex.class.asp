@@ -3,7 +3,7 @@
 
 Include the _hex.asp class at the beginning of your Classic ASP page: <br>
 ```vbnet
-<!-- #include virtual="/hex-classic-asp/_hex.asp" -->
+<!-- #include virtual="/_hex.asp" -->
 ```
 
 The <b>Hexa</b> class will be created with the following functions: <br>
