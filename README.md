@@ -28,7 +28,7 @@ Hexa.Read(t)
 ```
 Same as Hexa.Decode but will check for "HEX:" to verfy that string is hex, and only decode if necessary.
 
-code>Hexa.Encoded</code> and <code>Hexa.Decoded</code> are two additional public variables that store the previously encoded and decoded strings. 
+<code>Hexa.Encoded</code> and <code>Hexa.Decoded</code> are two additional public variables that store the previously encoded and decoded strings. 
 
 ```vbnet
 Hexa.Reset
