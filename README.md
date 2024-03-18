@@ -1,7 +1,7 @@
-# hex-classic-asp
+# hexa.class.asp
 <strong>Small hex string encode &amp; decode Class written for Classic ASP</strong>
 
-Include the _hex.asp class at the beginning of your Classic ASP page: <br>
+Include the /hexa.class.asp class at the beginning of your Classic ASP page: <br>
 ```vbnet
 <!-- #include virtual="/hexa.class.asp" -->
 ```
